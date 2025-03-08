@@ -82,6 +82,8 @@ You can also combine an Igniter install command with existing project generators
 mix igniter.new app_name --install ash --with phx.new --with-args="--no-ecto --no-html"
 ```
 
+Note: `igniter.new` supports all the arguments that `mix new` supports (such as `--app`, `--module`, `--sup`, and `--umbrella`)
+
 ## For library authors and platform teams
 
 Igniter is a toolkit for writing smarter generators that can semantically create _and modify_ existing files.
